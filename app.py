@@ -4,8 +4,8 @@ import requests
 app = Flask(__name__)
 
 # Replace with your actual API keys
-OPENROUTER_API_KEY = "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"
-DEEPAI_API_KEY = "fd2efa45-28bb-4700-813d-f0acd28df779"
+OPENROUTER_API_KEY = "Your api key"
+DEEPAI_API_KEY = "Your api key"
 
 @app.route("/")
 def home():
